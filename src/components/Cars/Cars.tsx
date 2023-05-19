@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react';
-import {ICar} from "../interfaces/car.interface";
-import {carService} from "../services/car.service";
+import {ICar} from "../../interfaces/car.interface";
+import {carService} from "../../services/car.service";
 import {Car} from "./Car";
 import {CarForm} from "./CarForm";
 const Cars = () => {

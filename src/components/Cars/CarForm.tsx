@@ -1,7 +1,7 @@
 import React from 'react';
 import {SubmitHandler, useForm} from "react-hook-form";
-import {ICar} from "../interfaces/car.interface";
-import {carService} from "../services/car.service";
+import {ICar} from "../../interfaces/car.interface";
+import {carService} from "../../services/car.service";
 
 const CarForm = () => {
     const {reset,register, handleSubmit} = useForm<ICar>();

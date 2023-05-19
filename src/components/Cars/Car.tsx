@@ -1,5 +1,5 @@
 import React, {FC} from 'react';
-import {ICar} from "../interfaces/car.interface";
+import {ICar} from "../../interfaces/car.interface";
 
 interface IProps{
     car:ICar;
